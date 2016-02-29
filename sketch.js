@@ -23,7 +23,7 @@ function setup() {
   textSize(30);
   heading = createElement('h1', 'surrealist (dadist) text generator / rearranger');
   inputText = createElement('h2', 'enter some paragraphs of text and see the many poetic iterations that can be found');
-  siteDescript = createElement('h3', 'sentences are chopped, rearranged, repeated, and the punctuation removed.');
+  siteDescript = createElement('h3', 'sentences are chopped, rearranged, removed, repeated, with no punctuation.');
   aLink = createElement('h4', 'try it with: https://www.gutenberg.org/files/11/11-h/11-h.htm');
   heading.position(35,20);
   inputText.position(35, 55);
