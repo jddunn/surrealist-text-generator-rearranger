@@ -13,20 +13,22 @@ function setup() {
   createCanvas(displayWidth, displayHeight);
   
   input = createInput();
-  input.position(36, 110);
+  input.position(36, 124);
   enterButton = createButton('submit');
-  enterButton.position(214, 110);
+  enterButton.position(214, 124);
   enterButton.mousePressed(submit);
   clearButton = createButton('clear');
-  clearButton.position(273, 110);
+  clearButton.position(273, 124);
   clearButton.mousePressed(clear);
   textSize(30);
-  heading = createElement('h1', 'surrealist text generator');
-  inputText = createElement('h2', 'enter some paragraphs of text and see the poetry that can be found');
-  aLink = createElement('h3', 'try it with: https://www.gutenberg.org/files/11/11-h/11-h.htm');
+  heading = createElement('h1', 'surrealist (dadist) text generator / rearranger');
+  inputText = createElement('h2', 'enter some paragraphs of text and see the many poetic iterations that can be found');
+  siteDescript = createElement('h3', 'sentences are chopped, rearranged, repeated, and the punctuation removed.');
+  aLink = createElement('h4', 'try it with: https://www.gutenberg.org/files/11/11-h/11-h.htm');
   heading.position(35,20);
   inputText.position(35, 55);
-  aLink.position(35, 83);
+  siteDescript.position(37, 80)
+  aLink.position(38, 100);
   textAlign(CENTER);                //  With the layout centered and endmarks removed, the new text looks like poetry
 
 }
